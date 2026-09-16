@@ -169,6 +169,7 @@ button,a{font:inherit}
   opacity:.97;
   pointer-events:none;
   margin-top:65px;
+  margin-bottom:65px;
 
 }
 /*.title-lockup{
@@ -202,8 +203,8 @@ button,a{font:inherit}
 .copyright{
   position:absolute;
   z-index:4;
-  bottom:4.6%;
   left:50%;
+  top:93%;
   transform:translateX(-50%);
   text-align:center;
   font-family:"Oswald",sans-serif;
