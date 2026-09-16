@@ -127,7 +127,7 @@ button,a{font:inherit}
   text-align:center;
 }
 .xodiac-lockup{
-  width:min(470px,62vw);
+  width:min(470px,22vw);
   height:auto;
   object-fit:contain;
   object-position:center;
@@ -160,12 +160,11 @@ button,a{font:inherit}
   color:rgba(255,255,255,.88);
 }
 .title-lockup{
-  width:min(470px,62vw);
   height:auto;
   position: absolute;
   left:50%;
   transform:translateX(-50%);
-  width:min(910px,62vw);
+  width:min(910px,32vw);
   top:95%;
   opacity:.97;
   pointer-events:none;
