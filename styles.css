@@ -29,6 +29,7 @@ button,a{font:inherit}
   background:rgba(239,244,244,.92);
   color:#090909;
   backdrop-filter:blur(10px);
+  opacity:.67;
 }
 .brand-cluster{
   height:44px;
@@ -159,6 +160,19 @@ button,a{font:inherit}
   color:rgba(255,255,255,.88);
 }
 .title-lockup{
+  width:min(470px,62vw);
+  height:auto;
+  position: absolute;
+  left:50%;
+  transform:translateX(-50%);
+  width:min(910px,62vw);
+  top:95%;
+  opacity:.97;
+  pointer-events:none;
+  margin-top:65px;
+
+}
+/*.title-lockup{
   position:absolute;
   z-index:3;
   left:50%;
@@ -167,7 +181,7 @@ button,a{font:inherit}
   width:min(910px,62vw);
   opacity:.97;
   pointer-events:none;
-}
+}*/
 .title-lockup img{
   width:100%;
   height:auto;
